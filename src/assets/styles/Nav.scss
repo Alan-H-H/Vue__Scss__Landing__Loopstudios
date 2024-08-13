@@ -1,0 +1,32 @@
+.Header{
+    background-image: url("./images/desktop/image-hero.jpg");
+    background-size: cover;
+    padding: 5em;
+    padding-left: 11em;
+    .hamburger{
+        display: none;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        float: right;
+        padding-right: 5em;
+    }
+    li{
+        list-style-type: none;
+        padding: 1em;
+        color: $White;
+        font-weight: 400;
+        font-family: 'Alata';
+        cursor: pointer;
+        &:hover{
+            border-bottom: 0.3em solid $White;
+        }
+    }
+    img{
+        text-align: left;
+        padding-bottom: 3em;
+    }
+}
+

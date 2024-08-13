@@ -1,0 +1,41 @@
+.bottom-nav{
+    background-color: $Black;
+    color: $White;
+    display: flex;
+    flex-direction: row;
+    padding: 3em 11em;
+    nav{
+        display: flex;
+        flex-direction: row;
+        li{
+            list-style-type: none;
+            padding: 1em 1em 1em 0em;
+            margin-top: 2em;
+            cursor: pointer;
+            font-weight: 400;
+            font-family: 'Alata';
+            &:hover{
+                border-bottom: 0.3em solid $White;
+            }
+        }
+    }
+    .navigator{
+        width: 50%;
+    }
+    .copyright{
+        width: 50%;
+        text-align: right;
+        p{
+            font-weight: 200;
+            font-family: 'Alata';
+            color: $DarkGray;
+        }
+        img{
+            cursor: pointer;
+            padding: 1em;
+            &:hover{
+                border-bottom: 0.2em solid $White;
+            }
+        }
+    }
+}

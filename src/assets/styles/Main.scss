@@ -1,0 +1,27 @@
+.top{
+    padding-top: 11em;
+    padding-left: 11em;
+    .text{
+        position: absolute;
+        width: 25%;
+        font-size: 26px;
+        z-index: 100;
+        margin-bottom: 5em;
+        background-color: $White;
+        margin-left: 20em;
+        margin-top: -11em;
+        padding: 3em;
+    }
+    .topsection{
+        z-index: 90;
+    }
+    h1{
+        font-weight: 100;
+        font-family: 'Alata';
+    }
+    p{
+        color:$DarkGray;
+        font-size: 16px;
+        font-family: 'Alata';
+    }
+}

@@ -1,0 +1,46 @@
+.sectionbottom{
+    display: flex;
+    flex-direction: row;
+    padding-top: 11em;
+    padding-left: 11em;
+    font-family: 'Alata';
+    font-weight: 100;
+    align-items: center;
+    h1{
+        float: left;
+        width: 80%;
+        letter-spacing: 0.4em;
+        font-size: 42px;
+        font-weight: 100;
+    }
+    button{
+        float: right;
+        padding: 0.5em 2em;
+        font-size: 15px;
+        letter-spacing: 0.4em;
+        cursor: pointer;
+        height: 20%;
+        &:hover{
+            background-color: $Black;
+            color: $White;
+        }
+    }
+}
+.grid{
+    padding: 8em 9em;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    p{ 
+        position: absolute;
+        margin: 18em 2em;
+        font-size: 26px;
+        color: $White;
+        font-family: 'Alata';
+        width: 7%;
+    }
+    img{
+        margin: 1em;
+        width: 90%;
+    }
+}
