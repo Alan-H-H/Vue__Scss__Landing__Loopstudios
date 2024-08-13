@@ -7,12 +7,13 @@
 .Header .hamburger {
   display: none;
 }
-.Header nav {
+.Header .desktop{
   display: flex;
   flex-direction: row;
   float: right;
   padding-right: 5em;
 }
+
 .Header li {
   list-style-type: none;
   padding: 1em;
