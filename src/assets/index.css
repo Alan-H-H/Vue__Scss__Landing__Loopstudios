@@ -165,9 +165,7 @@
 }
 
 @media (max-width: 768px) {
-  body{
-    width: 480px;
-  }
+  
   .mobile {
     display: flex;
   }
@@ -206,7 +204,8 @@
   }
   .top {
     padding-top: 6em;
-    padding-right: 0.5em
+    padding: 0.5em;
+    text-align: center;
   }
   .top .text {
     width: 90%;
