@@ -203,6 +203,7 @@
   }
   .top {
     padding-top: 6em;
+    padding: 1em
   }
   .top .text {
     width: 90%;
@@ -222,7 +223,7 @@
     font-size: 22px;
   }
   .top img {
-    width: 90%;
+    width: 100%;
     padding: 1em;
   }
   .sectionbottom {
