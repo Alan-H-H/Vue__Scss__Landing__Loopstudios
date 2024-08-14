@@ -203,7 +203,6 @@
     padding: 0.5em;
   }
   .top {
-    width: 85%;
     padding-top: 6em;
     padding: 0.5em;
     text-align: center;
@@ -214,6 +213,7 @@
     margin-top: 0;
     padding: 1em;
     text-align: center;
+    width: 85%;
   }
   .top .topsection {
     z-index: 90;
@@ -226,6 +226,7 @@
   }
   .top img {
     padding: 1em;
+    width:80%;
   }
   .sectionbottom {
     display: flex;
